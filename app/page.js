@@ -1,12 +1,14 @@
 import Header from "./Header";
 import HeroSection from "./HeroSection";
+import PostSection from "./PostSection";
 
 export default function Home() {
   return (
-    <section className="bg-[#0e0e0f] min-h-screen flex flex-col items-center justify-between p-4 ">
+    <section className="relative w-full bg-[#EAF4EC] px-4 py-12 text-center overflow-hidden">
       {/* Fejlec */}
       <Header />
       <HeroSection />
+      <PostSection />
     </section>
   );
 }
