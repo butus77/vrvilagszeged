@@ -1,6 +1,6 @@
 import Header from "./Header";
 import HeroSection from "./HeroSection";
-import PostSection from "./PostSection";
+import SecondSection from "./SecondSection";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       {/* Fejlec */}
       <Header />
       <HeroSection />
-      <PostSection />
+      <SecondSection />
       </>
   );
 }
