@@ -1,7 +1,7 @@
 export default function SecondSection() {
   return (
     <>
-      <section className="relative bg-[#EAF4EC] px-4 py-12 text-center overflow-visible">
+      <section className="relative bg-[#EAF4EC] px-4 py-12 text-center">
         {/* Címsor */}
         <h2 className="pt-28 text-2xl sm:text-3xl md:text-4xl font-bold text-[#43AFAF] z-10 relative">
           A valóság már nem kötelező!
@@ -19,9 +19,10 @@ export default function SecondSection() {
           Csapatos vagy egyéni kalandok, ahol minden lépés számít
         </h4>
         <div
-          className="absolute -bottom-12 bg-[#EAF4EC] w-full min-h-44 z-10"
+          className="absolute -bottom-12 bg-[#EAF4EC] w-full min-h-44 z-0"
           style={{
-            clipPath: "polygon(50% 100%, 0 70%, 100% 70%)",
+            height: "100px",
+            clipPath: "polygon(46% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
           }}
         ></div>
       </section>
