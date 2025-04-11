@@ -1,7 +1,7 @@
 export default function SecondSection() {
   return (
     <>
-      <section className="relative bg-[#EAF4EC] px-4 py-12 text-center">
+      <section className="relative bg-[#EAF4EC] px-4 py-12 text-center flex flex-col items-center">
         {/* Címsor */}
         <h2 className="pt-28 text-2xl sm:text-3xl md:text-4xl font-bold text-[#43AFAF] z-10 relative">
           A valóság már nem kötelező!
