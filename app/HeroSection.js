@@ -25,10 +25,9 @@ export default function HeroSection() {
           fizikai interakciók, és egy teljesen új világ
         </p>
         <div
-          className="absolute -bottom-12 bg-[#0E0E0F] w-full h-44 z-10"
+          className="absolute -bottom-12 bg-[#0E0E0F] w-full min-h-44 z-10"
           style={{
-            clipPath:
-              "polygon(46% 69%, 100% 68%, 100% 75%, 50% 100%, 0% 75%, 0 69%)",
+            clipPath: "polygon(50% 100%, 0 70%, 100% 70%)",
           }}
         ></div>
       </section>

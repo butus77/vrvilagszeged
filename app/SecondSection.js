@@ -19,10 +19,9 @@ export default function SecondSection() {
           Csapatos vagy egyéni kalandok, ahol minden lépés számít
         </h4>
         <div
-          className="absolute -bottom-12 bg-[#EAF4EC] w-full h-44 z-10"
+          className="absolute -bottom-12 bg-[#EAF4EC] w-full min-h-44 z-10"
           style={{
-            clipPath:
-              "polygon(50% 69%, 100% 68%, 100% 75%, 50% 100%, 0% 75%, 0 69%)",
+            clipPath: "polygon(50% 100%, 0 70%, 100% 70%)",
           }}
         ></div>
       </section>
