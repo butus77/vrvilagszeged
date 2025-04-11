@@ -1,12 +1,7 @@
-export default function PostSection() {
+export default function SecondSection() {
   return (
     <>
       <section className="relative bg-[#EAF4EC] px-4 py-12 text-center overflow-visible">
-        <div
-          className="absolute w-[1001px] h-[1781px] top-[-2px] left-[-1px] bg-cover bg-no-repeat bg-center"
-          style={{ backgroundImage: "url('/images/bg-dekor.png')" }}
-        />
-
         {/* Címsor */}
         <h2 className="pt-28 text-2xl sm:text-3xl md:text-4xl font-bold text-[#43AFAF] z-10 relative">
           A valóság már nem kötelező!

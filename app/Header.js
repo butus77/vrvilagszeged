@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full bg-[#0E0E0F] text-white px-4 py-4 z-50 justify-between">
+    <header className="fixed top-0 left-0 w-full bg-[#0E0E0F] text-white px-4 py-4 z-50">
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         {/* Logó */}
         <Image
