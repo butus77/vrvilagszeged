@@ -12,20 +12,8 @@ export default function PostSection() {
           style={{ backgroundImage: "url('/images/bg-dekor.png')" }}
         />
 
-        {/* Layer_2 extra díszítőelem 
-        <div
-          className="absolute w-[391px] top-[22.91%] left-1/2 -translate-x-[50%] translate-x"
-          style={{
-            backgroundImage: "url('/images/layer2.png')",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            height: "auto",
-            aspectRatio: "1 / 1", // ha négyzetes
-          }}
-        />*/}
-
         {/* Címsor */}
-        <h2 className="pt-px text-2xl sm:text-3xl md:text-4xl font-bold text-[#43AFAF] z-10 relative">
+        <h2 className="pt-28 text-2xl sm:text-3xl md:text-4xl font-bold text-[#43AFAF] z-10 relative">
           A valóság már nem kötelező!
         </h2>
 
@@ -37,6 +25,7 @@ export default function PostSection() {
             className="w-[228px] h-[228px] object-contain z-10"
           />
         </div>
+        <h4 className="pt-28  sm:text-2xl md:text-3xl font-bold text-[#43AFAF] z-10 relative">Csapatos vagy egyéni kalandok, ahol minden lépés számít</h4>
       </section>
     </>
   );

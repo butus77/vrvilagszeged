@@ -9,8 +9,8 @@ const Header = () => {
         <Image
           src="/images/VRVilág-fekvő-v 2.svg"
           alt="VR Világ logó"
-          width={160}
-          height={40}
+          width={100}
+          height={20}
         />
 
         {/* Foglalás gomb */}
