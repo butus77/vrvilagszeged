@@ -7,22 +7,47 @@ export default function SecondSection() {
           A valóság már nem kötelező!
         </h2>
 
-        {/* Kép (pl. haptic) */}
-        <div className="mt-12 flex justify-center relative z-10">
+        {/* Kép (haptic) */}
+        <div className="mt-12 relative z-10 w-[228px] h-[228px]">
           <img
             src="/images/haptic 1.svg"
             alt="Haptikus élmény"
-            className="w-[228px] h-[228px] object-contain z-10 relative"
+            className="w-full h-full object-contain"
           />
-          <button className="top-5 right-10 z-20 absolute bg-[#43AFAF] w-6 h-6 rounded-full hover:bg-[#367D7E] active:scale-95 transition duration-150">
-            {/* Nincs szöveg, csak az ikon */}
-          </button>
-          <button className="z-20 bg-[#43AFAF] w-6 h-6 rounded-full hover:bg-[#367D7E] active:scale-95 transition duration-150 absolute top-40 left-4 transform -translate-y-1/2"></button>
-          <button className=" bottom-8 right-18 z-20 bg-[#43AFAF] w-6 h-6 rounded-full hover:bg-[#367D7E] active:scale-95 transition duration-150 absolute transform -translate-y-1/2"></button>
+
+          {/* Gombok pontos pozíciókkal */}
+          {/* Felső jobb sarok */}
+          <button
+            className="absolute top-3.5 left-40 z-20 bg-[#43AFAF] w-6 h-6 rounded-full hover:bg-[#367D7E] transition"
+            title="Mellkasi rezgés"
+          ></button>
+
+          <div className="absolute top-4 left-52 w-40 text-sm text-black font-bold text-left">
+            Haptikus mellényekkel érzed a találatokat, ütéseket és rezgéseket.
+          </div>
+          {/* Bal oldal közepe */}
+          <button
+            className="absolute bottom-12 left-2 z-20 bg-[#43AFAF] w-6 h-6 rounded-full hover:bg-[#367D7E] transition"
+            title="Metaquest"
+          ></button>
+
+          {/* Alsó jobb sarok */}
+          <button
+            className="absolute bottom-7 right-14 z-20 bg-[#43AFAF] w-6 h-6 rounded-full hover:bg-[#367D7E] transition"
+            title="Alsó rész"
+          ></button>
+          <div className="absolute -bottom-10 left-40 w-40 text-sm text-black text-left font-bold z-50">
+            Haptikus mellényekkel érzed a találatokat, ütéseket és rezgéseket.
+          </div>
         </div>
-        <h4 className="pt-28  sm:text-2xl md:text-3xl font-bold text-[#43AFAF] z-10 relative">
+
+        {/* Szöveges magyarázat */}
+
+        <h4 className="pt-28 sm:text-2xl md:text-3xl font-bold text-[#43AFAF] z-10 relative">
           Csapatos vagy egyéni kalandok, ahol minden lépés számít
         </h4>
+
+        {/* Alakzat a szekció végén */}
         <div
           className="absolute -bottom-12 bg-[#EAF4EC] w-full min-h-44 z-0"
           style={{
@@ -32,6 +57,7 @@ export default function SecondSection() {
           }}
         ></div>
       </section>
+      );
     </>
   );
 }
