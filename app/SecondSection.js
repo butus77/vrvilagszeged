@@ -22,7 +22,7 @@ export default function SecondSection() {
             title="Mellkasi rezgés"
           ></button>
 
-          <div className="absolute top-4 left-52 w-40 text-sm text-black font-bold text-left">
+          <div className="absolute top-4 left-6 sm:left-52 max-w-[150px] break-words w-40 text-sm text-black font-bold text-left">
             Haptikus mellényekkel érzed a találatokat, ütéseket és rezgéseket.
           </div>
           {/* Bal oldal közepe */}
@@ -36,7 +36,8 @@ export default function SecondSection() {
             className="absolute bottom-7 right-14 z-20 bg-[#43AFAF] w-6 h-6 rounded-full hover:bg-[#367D7E] transition"
             title="Alsó rész"
           ></button>
-          <div className="absolute -bottom-10 left-40 w-40 text-sm text-black text-left font-bold z-50">
+          <div className="absolute -bottom-10  left-52 sm:left-50 max-w-[150px] break-words
+w-40 text-sm text-black text-left font-bold z-50">
             Haptikus mellényekkel érzed a találatokat, ütéseket és rezgéseket.
           </div>
         </div>
