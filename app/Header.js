@@ -16,7 +16,7 @@ const Header = () => {
         {/* Foglalás gomb */}
         <Link
           href="/foglalas"
-          className="bg-[#43AFAF] text-white px-4 py-2 rounded-xl text-sm font-semibold"
+          className="bg-[#43AFAF] text-white px-4 py-2 rounded-xl text-sm font-semibold sm:text-base absolute right-4 top-4 sm:right-8"
         >
           Foglalás
         </Link>
