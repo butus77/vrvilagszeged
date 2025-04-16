@@ -13,8 +13,8 @@ const Header = () => {
           height={20}
         />
 
-        <div className="hidden sm:flex items-center space-x-4">
-          <Image
+        <div className="hidden sm:flex items-center space-x-4 md:hidden">
+          <Image 
             src="/images/Frame 63.svg"
             alt="kozosegi media logok"
             width={100}
@@ -29,6 +29,42 @@ const Header = () => {
           >
             Foglalás
           </Link>
+        </div>
+        <div className="hidden md:flex items-center space-x-4">
+        <Link
+            href="/ismerteto"
+            className=" text-white px-4 py-2 rounded-xl text-sm font-semibold sm:text-base right-4 top-4 sm:right-8"
+          >
+            Ismertető
+          </Link>
+          <Link
+            href="/jatekaink"
+            className=" text-white px-4 py-2 rounded-xl text-sm font-semibold sm:text-base right-4 top-4 sm:right-8"
+          >
+            Játékaink
+          </Link>
+          <Link
+            href="/rolunk"
+            className=" text-white px-4 py-2 rounded-xl text-sm font-semibold sm:text-base right-4 top-4 sm:right-8"
+          >
+            Rólunk
+          </Link>
+          
+
+          {/* Foglalás gomb */}
+          <Link
+            href="/foglalas"
+            className="bg-[#43AFAF] text-white px-4 py-2 rounded-xl text-sm font-semibold sm:text-base right-4 top-4 sm:right-8"
+          >
+            Foglalás
+          </Link>
+          <Image
+            src="/images/Frame 63.svg"
+            alt="kozosegi media logok"
+            width={100}
+            height={20}
+            className="w-auto h-5"
+          />
         </div>
 
         {/* Mobil gomb (kép nélkül) */}
