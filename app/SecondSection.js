@@ -53,13 +53,15 @@ w-28 text-sm sm:w-40 md:w-80 text-left font-bold z-50"
 
         {/* Alakzat a szekció végén */}
         <div
-          className="absolute -bottom-12 bg-[#EAF4EC] w-full min-h-44 z-0"
+          className="absolute -bottom-12 bg-[#EAF4EC] w-full min-h-44 z-10"
           style={{
             height: "100px",
             clipPath:
               "polygon(46% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
           }}
         ></div>
+        {/* Feketébe átmenő háttér – a díszítő elem mögött */}
+        <div className="absolute -bottom-12 left-0 w-full h-32 bg-[#0E0E0F] z-0 pointer-events-none" />
       </section>
       );
     </>
