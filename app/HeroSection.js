@@ -55,7 +55,7 @@ export default function HeroSection() {
         <div
           className="absolute -bottom-12 bg-[#0e0e0f] w-full min-h-44 z-1"
           style={{
-            height: "100px",
+            height: "213px",
             clipPath:
               "polygon(46% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
           }}

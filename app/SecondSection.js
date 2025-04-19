@@ -47,7 +47,7 @@ w-28 text-sm sm:w-40 md:w-80 text-left font-bold z-50"
 
         {/* Szöveges magyarázat */}
 
-        <h4 className="pt-28 sm:text-2xl md:text-3xl font-bold text-[#43AFAF] z-10 relative">
+        <h4 className="pt-28 sm:text-2xl md:text-3xl font-bold text-[#43AFAF] z-40 relative">
           Csapatos vagy egyéni kalandok, ahol minden lépés számít
         </h4>
 
@@ -55,7 +55,7 @@ w-28 text-sm sm:w-40 md:w-80 text-left font-bold z-50"
         <div
           className="absolute -bottom-12 bg-[#EAF4EC] w-full min-h-44 z-10"
           style={{
-            height: "100px",
+            height: "213px",
             clipPath:
               "polygon(46% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
           }}

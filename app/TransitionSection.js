@@ -1,6 +1,14 @@
 export default function TransitionSection() {
-    return (
-      <section className="h-24 bg-gradient-to-b from-[#EAF4EC] to-[#0E0E0F] w-full" />
-    );
-  }
-  
+  return (
+    <div
+      className="w-full h-full bg-[#0e0e0f]"
+      style={{
+        clipPath:
+          "polygon(46% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
+      }}
+    />
+  );
+}
+
+
+
