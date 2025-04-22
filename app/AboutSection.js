@@ -1,7 +1,7 @@
 export default function AboutSection() {
   return (
-    <section className="relative bg-[#EAF4EC] text-black px-6 py-16 flex flex-col items-center z-20">
-      <h2 className="text-3xl font-bold mb-10">Rólunk</h2>
+    <section className="-mt-16 bg-[#EAF4EC] text-black px-6 py-16 flex flex-col items-center z-20">
+      <h2 className="text-3xl font-bold mt-10 p-6">Rólunk</h2>
       <p className="max-w-2xl text-center text-base leading-relaxed">
         A VR Világ 2025-ben indult azzal a céllal, hogy Szegedre elhozza a
         szabadmozgásos szórakozás jövőjét. Alapítóink kockák, akik sportolói
