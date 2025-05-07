@@ -3,24 +3,43 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full bg-[#0E0E0F] text-white px-4 py-4 z-50">
+    <header className="top-0 left-0 w-full bg-[#0E0E0F]  text-white px-4 py-4 z-50">
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         {/* Logó */}
         <Image
-          src="/images/VRVilág-fekvő-v 2.svg"
+          src="/images/VRVilag2.svg"
           alt="VR Világ logó"
-          width={100}
-          height={20}
+          width={180}
+          height={50}
         />
 
         <div className="hidden sm:flex items-center space-x-4 md:hidden">
-          <Image
-            src="/images/Frame 63.svg"
-            alt="kozosegi media logok"
-            width={100}
-            height={20}
-            className="w-auto h-5"
-          />
+          <a
+            href="https://www.facebook.com/profile.php?id=61572550628910"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/images/facebook-logo.png"
+              alt="kozosegi media logok"
+              width={120}
+              height={40}
+              className="w-auto h-5"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/vr_vilag/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/images/Instagram_icon.png"
+              alt="kozosegi media logok"
+              width={120}
+              height={40}
+              className="w-auto h-5"
+            />
+          </a>
 
           {/* Foglalás gomb */}
           <Link
@@ -57,13 +76,32 @@ const Header = () => {
           >
             Foglalás
           </Link>
-          <Image
-            src="/images/Frame 63.svg"
-            alt="kozosegi media logok"
-            width={100}
-            height={20}
-            className="w-auto h-5"
-          />
+          <a
+            href="https://www.facebook.com/profile.php?id=61572550628910"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/images/facebook-logo.png"
+              alt="kozosegi media logok"
+              width={120}
+              height={40}
+              className="w-auto h-5"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/vr_vilag/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/images/Instagram_icon.png"
+              alt="kozosegi media logok"
+              width={120}
+              height={40}
+              className="w-auto h-5"
+            />
+          </a>
         </div>
 
         {/* Mobil gomb (kép nélkül) */}

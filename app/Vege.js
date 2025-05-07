@@ -6,7 +6,7 @@ export default function Vege() {
     <>
     <div className="absolute  w-full lg:hidden">
       <Image
-        src="/images/Rectangle 28.svg"
+        src="/images/background4.png"
         alt="zaroelem"
         width={1920}
         height={200}

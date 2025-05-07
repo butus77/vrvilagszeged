@@ -1,11 +1,11 @@
 export default function Foglalj(){
     return (
         <>
-          <h2 className="py-10 bg-[#0E0E0F] text-center text-[#EAF4EC] text-2xl sm:text-3xl md:text-4xl font-bold leading-[30px]">
+          <h2 className="py-10 bg-[#0E0E0F]/50 mix-blend-multiply text-center text-[#EAF4EC] text-2xl sm:text-3xl md:text-4xl font-bold leading-[30px]">
             Foglalj
           </h2>
-          <section className="sm:bg-[#0e0e0f] sm:px-4 sm:py-8">
-            <section className=" hidden sm:grid sm:grid-cols-2 md:grid-cols-4 gap-y-6 gap-x-12 bg-[#0e0e0f] px-4 py-8 max-w-3xl mx-auto">
+          <section className="sm:bg-[#0e0e0f]/50 mix-blend-multiply sm:px-4 sm:py-8">
+            <section className="grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-y-6 gap-x-12 bg-[#0e0e0f]/10  min-2xl px-4 py-8 max-w-3xl mx-auto">
               {/* 1. lépés */}
               <div className="flex items-start gap-3">
                 <div className="border-2 border-[#43AFAF] text-[#43AFAF] font-bold px-3 py-1 text-lg">
