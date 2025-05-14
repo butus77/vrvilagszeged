@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <section className="relative bg-[#0E0E0F]/50 mix-blend-multiply text-white w-full px-4 py-16 z-0">
+    <section className="relative bg-transparent mix-blend-multiply text-white w-full px-4 py-16 z-0">
       <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-start gap-10 md:gap-0 relative">
         {/* Bal oldal: logó és kontakt info */}
         <div className="flex flex-col gap-4 items-start">
@@ -60,7 +60,7 @@ export default function Footer() {
       </div>
 
       {/* Alsó copyright sor */}
-      <div className="text-center text-xs text-gray-400 pt-10">
+      <div className="text-center text-xl text-gray-400 pt-10">
         © 2025 VR Világ
       </div>
     </section>

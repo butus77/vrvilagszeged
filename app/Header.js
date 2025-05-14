@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="top-0 left-0 w-full bg-[#0E0E0F]  text-white px-4 py-4 z-50">
-      <div className="flex justify-between items-center max-w-7xl mx-auto">
+    <header className="top-0 w-full bg-[#0E0E0F]/80  text-white py-4 z-50">
+      <div className="flex justify-between items-center max-w-7xl mx-auto ml-[10%] pr-[10%]">
         {/* Logó */}
         <Image
           src="/images/VRVilag2.svg"
@@ -13,7 +13,7 @@ const Header = () => {
           height={50}
         />
 
-        <div className="hidden sm:flex items-center space-x-4 md:hidden">
+        <div className="hidden sm:flex items-center space-x-4 md:hidden mr-[15%]">
           <a
             href="https://www.facebook.com/profile.php?id=61572550628910"
             target="_blank"
@@ -44,7 +44,7 @@ const Header = () => {
           {/* Foglalás gomb */}
           <Link
             href="/foglalas"
-            className="bg-[#43AFAF] text-white px-4 py-2 rounded-xl text-sm font-semibold sm:text-base right-4 top-4 sm:right-8"
+            className="bg-[#43AFAF] text-white px-4 py-2 rounded-xl text-sm font-semibold sm:text-base mr-[10%] top-4"
           >
             Foglalás
           </Link>

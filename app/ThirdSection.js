@@ -1,9 +1,11 @@
 import Image from "next/image";
 
+{/* Mozgo kepek */}
+
 export default function ThirdSection() {
   return (
-    <section className="relative bg-[#0E0E0F]/50 mix-blend-multiply py-10 px-4 flex justify-center items-center z-0">
-      <div className="flex flex-wrap justify-center items-center gap-6 opacity-50 mix-blend-luminosity max-w-full">
+    <section className="relative mt-10 bg-transparent mix-blend-multiply py-10 px-4 flex justify-center items-center -z-10">
+      <div className="flex flex-wrap justify-center items-center gap-6 opacity-50 mix-blend-luminosity max-w-full -z-50">
         <Image
           src="/images/Frame 61.svg"
           alt="Dekoráció 1"
