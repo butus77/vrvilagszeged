@@ -18,23 +18,21 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="hu" className="h-full">
+    <html lang="hu" className="h-full w-full">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} h-full antialiased relative`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative h-full w-full`}
       >
-        {/* Háttér + overlay */}
-        <div className="fixed inset-0 z-0">
+        {/* Háttér */}
+        <div className="fixed inset-0 z-0 w-full h-full">
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat bg-scroll"
-            style={{ backgroundImage: "url('images/background4.png')" }}
+            style={{ backgroundImage: "url('/images/background4.png')" }}
           />
           <div className="absolute inset-0 bg-black opacity-80" />
         </div>
 
         {/* Tartalom */}
-        <div className="relative z-10  w-full">
-          {children}
-        </div>
+        <main className="relative z-10 w-full">{children}</main>
       </body>
     </html>
   );
