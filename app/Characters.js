@@ -1,7 +1,7 @@
 export default function Characters() {
   return (
     <div
-      className="absolute -bottom-48 transform -translate-x-1/2 left-1/2 w-[400px] h-[400px] "
+      className="absolute -bottom-48 transform -translate-x-1/2 left-1/2 w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] lg:-bottom-57"
       style={{
         backgroundImage: "url('/images/characters.png')",
         backgroundSize: "contain",

@@ -1,13 +1,29 @@
 export default function CopCutout() {
-    return (
-      <div
-        className="hidden md:block w-[123.6px] h-[189px] md:top-[5%] md:right-[1%] lg:right-[5%] absolute  lg:w-[190] aspect-[97.94/130] z-50"
-        style={{
-          backgroundImage: "url('/images/CopsVsRobbers_Cutouts_Cop_01 1.svg')",
-          backgroundSize: "contain",
-          backgroundRepeat: "no-repeat",
-        }}
-      />
-    );
-  }
+  return (
+    <div
+      className="
+        absolute 
+        top-1/4 
+        right-1        /* 1rem from right on mobile */
+        sm:right-6     /* 1.5rem from right on ≥640px */
+        md:right-8     /* 2rem from right on ≥768px */
+        lg:right-16    /* 4rem from right on ≥1024px */
+        transform -translate-y-1/2
+        w-[100px]      /* base width */
+        sm:w-[110px]   /* ≥640px */
+        md:w-[120px]   /* ≥768px */
+        lg:w-[150px]   /* ≥1024px */
+        aspect-[123.6/189]  /* preserves original ratio */
+        z-1
+        hidden sm:block /* only from sm-up */
+      "
+      style={{
+        backgroundImage: "url('/images/CopsVsRobbers_Cutouts_Cop_01 1.svg')",
+        backgroundSize: "contain",
+        backgroundRepeat: "no-repeat",
+      }}
+    />
+  );
+}
+
   

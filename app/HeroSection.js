@@ -23,16 +23,6 @@ export default function HeroSection() {
           Ahol nincsenek kábelek, nincsenek határok – csak Te, a valósághű
           fizikai interakciók és egy teljesen új világ
         </p>
-
-        {/* Díszítő elem – mobil */}
-        <div
-          className="absolute -bottom-22 left-0 w-full bg-[#EAF4EC] z-0 pointer-events-none"
-          style={{
-            height: "250px",
-            clipPath:
-              "polygon(50% 60%, 100% 25%, 100% 75%, 50% 75%, 0% 75%, 0% 25%)",
-          }}
-        ></div>
       </section>
 
       {/* Asztali / tablet nézet */}
@@ -63,16 +53,6 @@ export default function HeroSection() {
             />
           </div>
         </div>
-
-        {/* Díszítő elem – asztali */}
-        <div
-          className="absolute -bottom-22 left-0 w-full bg-[#EAF4EC] z-0 pointer-events-none"
-          style={{
-            height: "250px",
-            clipPath:
-              "polygon(50% 60%, 100% 25%, 100% 75%, 50% 75%, 0% 75%, 0% 25%)",
-          }}
-        ></div>
       </section>
     </>
   );

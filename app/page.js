@@ -24,8 +24,6 @@ export default function Home() {
     
       <ImageGridSection1 />
 
-      <TransitionSection />
-
       <AboutSection />
 
       <Footer />
