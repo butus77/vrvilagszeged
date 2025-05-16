@@ -31,3 +31,26 @@ html, body {
   }
 }
 
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee {
+  /* inline-flex miatt a whitespace-nowrap is bejön implicit */
+  animation: marquee 90s linear infinite;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+.img-base {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.img-base:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}

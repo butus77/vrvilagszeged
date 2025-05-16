@@ -1,20 +1,74 @@
 import Image from "next/image";
 
-{/* Mozgo kepek */}
+const IMAGES = [
+  "/images/1.png",
+  "/images/2.png",
+  "/images/3.png",
+  "/images/4.png",
+  "/images/5.png",
+  "/images/6.png",
+  "/images/7.png",
+  "/images/8.png",
+  "/images/9.png",
+  "/images/10.png",
+  "/images/11.png",
+  "/images/12.png",
+  "/images/13.png",
+  "/images/14.png",
+  "/images/15.png",
+  "/images/16.png",
+  "/images/17.png",
+  "/images/18.png",
+  "/images/19.png",
+  "/images/20.png",
+  "/images/21.png",
+  "/images/22.png",
+  "/images/23.png",
+  "/images/24.png",
+  "/images/25.png",
+  "/images/26.png",
+  "/images/27.png",
+  "/images/28.png"
+];
 
 export default function ThirdSection() {
   return (
-    <section className="relative mt-10 bg-transparent mix-blend-multiply py-10 px-4 flex justify-center items-center -z-10">
-      <div className="flex flex-wrap justify-center items-center gap-6 opacity-50 mix-blend-luminosity max-w-full ">
-        <Image
-          src="/images/Frame 61.svg"
-          alt="Dekoráció 1"
-          width={2566}
-          height={128}
-          sizes="(max-width: 768px) 100vw, 2566px"
-          style={{ width: '100%', height: 'auto' }}
-          priority
-        />
+    <section className="relative mt-10 overflow-hidden bg-transparent py-10 px-4">
+      <div className="marquee inline-flex">
+        <div className="inline-flex space-x-6">
+          {IMAGES.map((src, idx) => (
+            <div
+              key={idx}
+              className="flex-shrink-0 w-40 sm:w-60  h-50 relative overflow-visible"
+            >
+              <Image
+                src={src}
+                alt={`Dekoráció ${idx + 1}`}
+                width={200}    
+                height={200}   
+                className="img-base object-cover origin-center"
+                priority={idx < 5}
+              />
+            </div>
+          ))}
+        </div>
+        <div className="inline-flex space-x-2">
+          {IMAGES.map((src, idx) => (
+            <div
+              key={`dup-${idx}`}
+              className=" flex-shrink-0 w-40 sm:w-60  h-50 relative overflow-visible"
+            >
+              <Image
+                src={src}
+                alt={`Dekoráció ${idx + 1}`}
+                width={200}
+                height={200}
+                className="img-base object-cover origin-center"
+                priority={idx < 5}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

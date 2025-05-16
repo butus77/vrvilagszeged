@@ -2,10 +2,9 @@ import Image from "next/image";
 
 export default function ImageGridSection1() {
   // a két clipPath, egy az “Egyedi Ajánlat”-hoz, egy a “Next Level”-hez
-  const CLIP_ONE =
-    "polygon(40% 0, 90% 0, 90% 75%, 63% 100%, 10% 100%, 10% 22%)";
+  const CLIP_ONE = "polygon(40% 1%, 90% 1%, 90% 76%, 60% 99%, 10% 99%, 10% 24%)";
   const CLIP_TWO =
-    "polygon(40% 0, 90% 0, 90% 76%, 60% 100%, 10% 100%, 10% 24%)";
+    "polygon(40% 1%, 90% 1%, 90% 76%, 60% 99%, 10% 99%, 10% 24%)";
 
   return (
     <section className="py-12 px-4 sm:px-6 bg-transparent mix-blend-multiply">
@@ -27,7 +26,7 @@ export default function ImageGridSection1() {
         ].map(({ src, alt, title, subtitle, clip }, i) => (
           <div
             key={i}
-            className="group relative w-full aspect-[3/2] group transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:brightness-105"
+            className="group relative w-full aspect-[16/9] group transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:brightness-105"
           >
             {/* Kék keret alatt */}
             <div
@@ -54,7 +53,7 @@ export default function ImageGridSection1() {
 
             {/* Felirat */}
             <div className="absolute inset-0 z-20 flex flex-col justify-center items-center text-white text-shadow-custom text-center px-4">
-              <h3 className="text-2xl md:text-4xl font-bold uppercase">
+              <h3 className="text-2xl md:text-4xl font-bold uppercase drop-shadow-xl">
                 {title}
               </h3>
               {subtitle && (
