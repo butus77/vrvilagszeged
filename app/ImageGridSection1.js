@@ -2,7 +2,8 @@ import Image from "next/image";
 
 export default function ImageGridSection1() {
   // a két clipPath, egy az “Egyedi Ajánlat”-hoz, egy a “Next Level”-hez
-  const CLIP_ONE = "polygon(40% 1%, 90% 1%, 90% 76%, 60% 99%, 10% 99%, 10% 24%)";
+  const CLIP_ONE =
+    "polygon(40% 1%, 90% 1%, 90% 76%, 60% 99%, 10% 99%, 10% 24%)";
   const CLIP_TWO =
     "polygon(40% 1%, 90% 1%, 90% 76%, 60% 99%, 10% 99%, 10% 24%)";
 
@@ -27,7 +28,7 @@ export default function ImageGridSection1() {
           <div
             key={i}
             className="group relative w-full aspect-[16/9] group transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:brightness-105"
-          >
+          style={{clipPath: clip,}}>
             {/* Kék keret alatt */}
             <div
               className="absolute inset-0 z-0"
@@ -57,7 +58,16 @@ export default function ImageGridSection1() {
                 {title}
               </h3>
               {subtitle && (
-                <p className="text-xs sm:text-sm italic mt-1">{subtitle}</p>
+                <div className="flex items-center space-x-1 mt-1">
+                  <p className="text-xs sm:text-sm italic m-1">{subtitle}</p>
+                  <Image
+                    src="/images/ikon.png"
+                    alt="Személy ikon"
+                    width={8}
+                    height={8}
+                    className="w-4 h-4"
+                  />
+                </div>
               )}
             </div>
           </div>

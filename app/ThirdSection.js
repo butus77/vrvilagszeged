@@ -28,14 +28,14 @@ const IMAGES = [
   "/images/25.png",
   "/images/26.png",
   "/images/27.png",
-  "/images/28.png"
+  "/images/28.png",
 ];
 
 export default function ThirdSection() {
   return (
     <section className="relative mt-10 overflow-hidden bg-transparent py-10 px-4">
       <div className="marquee inline-flex">
-        <div className="inline-flex space-x-6">
+        <div className="inline-flex space-x-2">
           {IMAGES.map((src, idx) => (
             <div
               key={idx}
@@ -44,8 +44,8 @@ export default function ThirdSection() {
               <Image
                 src={src}
                 alt={`Dekoráció ${idx + 1}`}
-                width={200}    
-                height={200}   
+                width={200}
+                height={200}
                 className="img-base object-cover origin-center"
                 priority={idx < 5}
               />
