@@ -7,12 +7,11 @@ export default function CopCutout() {
         right-1        /* 1rem from right on mobile */
         sm:right-6     /* 1.5rem from right on ≥640px */
         md:right-8     /* 2rem from right on ≥768px */
-        lg:right-16    /* 4rem from right on ≥1024px */
+        lg:right-9    /* 2.25rem from right on ≥1024px */
         transform -translate-y-1/2
         w-[100px]      /* base width */
-        sm:w-[110px]   /* ≥640px */
         md:w-[120px]   /* ≥768px */
-        lg:w-[150px]   /* ≥1024px */
+        lg:w-[140px]   /* ≥1024px */
         aspect-[123.6/189]  /* preserves original ratio */
         z-1
         hidden sm:block /* only from sm-up */

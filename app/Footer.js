@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4 items-start w-full md:w-1/2">
           <Link href="/" scroll={true}>
             <div
-              className="w-[180px] h-[50px] bg-no-repeat bg-contain cursor-pointer"
+              className="w-[150px] h-[50px] sm:w-[180px] sm:h-[50px] bg-no-repeat bg-contain cursor-pointer"
               style={{
                 backgroundImage: "url('/images/VRVilag2.svg')",
               }}

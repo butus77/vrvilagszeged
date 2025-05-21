@@ -8,10 +8,10 @@ export default function ChefCutout() {
         md:left-8    /* közepes képernyőn 2rem */
         lg:left-16   /* nagy képernyőn 4rem */
         transform -translate-y-1/2  /* függőlegesen középre igazít */
+        sm:transform sm:translate-y-10
+        lg:transform lg:translate-y-1
         w-20         /* mobilon 7rem széles (~110px) */
-        sm:w-24      /* ≥640px-en 8rem */
         md:w-30      /* ≥768px-en 9rem */
-        lg:w-32      /* ≥1024px-en 10rem */
         aspect-[97.94/130]  /* az eredeti arányt tartja */
         z-1
         hidden sm:block /* only from sm-up */

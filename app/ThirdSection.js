@@ -39,14 +39,14 @@ export default function ThirdSection() {
           {IMAGES.map((src, idx) => (
             <div
               key={idx}
-              className="flex-shrink-0 w-40 sm:w-60  h-50 relative overflow-visible"
+              className="flex-shrink-0 w-40 sm:w-60  h-auto relative overflow-visible"
             >
               <Image
                 src={src}
                 alt={`Dekoráció ${idx + 1}`}
                 width={200}
                 height={200}
-                className="img-base object-cover origin-center"
+                className="img-base object-cover origin-center w-full h-auto"
                 priority={idx < 5}
               />
             </div>
@@ -56,14 +56,14 @@ export default function ThirdSection() {
           {IMAGES.map((src, idx) => (
             <div
               key={`dup-${idx}`}
-              className=" flex-shrink-0 w-40 sm:w-60  h-50 relative overflow-visible"
+              className=" flex-shrink-0 w-40 sm:w-60  h-auto relative overflow-visible"
             >
               <Image
                 src={src}
                 alt={`Dekoráció ${idx + 1}`}
                 width={200}
                 height={200}
-                className="img-base object-cover origin-center"
+                className="img-base object-cover origin-center w-full h-auto"
                 priority={idx < 5}
               />
             </div>

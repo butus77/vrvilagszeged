@@ -16,7 +16,7 @@ export default function AboutSection() {
         Rólunk
       </h2>
 
-      <p className="max-w-3xl text-center text-base sm:text-lg leading-relaxed mb-30 z-10 md:mx-20 px-4 lg:mb-50">
+      <p className="max-w-3xl text-center text-base sm:text-sm md:text-xl leading-relaxed mb-30 z-10 mx-10 md:mx-24 px-4 lg:mb-50">
         A VR Világ 2025-ben indult azzal a céllal, hogy Szegedre elhozza a
         szabadmozgásos szórakozás jövőjét. Alapítóink kockák, akik sportolói
         múltjukat a virtuális valóság iránti szenvedélyükkel ötvözték, hogy
