@@ -9,7 +9,8 @@ export default function ChefCutout() {
         lg:left-16   /* nagy képernyőn 4rem */
         transform -translate-y-1/2  /* függőlegesen középre igazít */
         sm:transform sm:translate-y-10
-        lg:transform lg:translate-y-1
+        lg:transform lg:translate-x-0.5 lg:translate-y-2
+        xl:transform xl:translate-x-12
         w-20         /* mobilon 7rem széles (~110px) */
         md:w-30      /* ≥768px-en 9rem */
         aspect-[97.94/130]  /* az eredeti arányt tartja */
@@ -24,4 +25,3 @@ export default function ChefCutout() {
     />
   );
 }
-

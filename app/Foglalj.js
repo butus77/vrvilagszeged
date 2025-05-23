@@ -7,10 +7,10 @@ export default function Foglalj() {
       </h2>
 
       {/* Lépések gridben */}
-      <section className="bg-transparent px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-6 gap-x-8 max-w-6xl mx-auto py-10">
+      <section className="bg-transparent px-4 sm:px-6 lg:px-8 lg:pb-5">
+        <div className="grid sm:pl-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-6 gap-x-8 max-w-6xl mx-auto py-10">
           {/* 1. lépés */}
-          <div className="flex items-start gap-3">
+          <div className="flex gap-3">
             <div className="border-2 border-[#43AFAF] text-[#43AFAF] font-bold px-3 py-1 text-lg">
               1
             </div>
@@ -20,7 +20,7 @@ export default function Foglalj() {
           </div>
 
           {/* 2. lépés */}
-          <div className="flex items-start gap-3">
+          <div className="flex gap-3">
             <div className="border-2 border-[#43AFAF] text-[#43AFAF] font-bold px-3 py-1 text-lg">
               2
             </div>
@@ -30,7 +30,7 @@ export default function Foglalj() {
           </div>
 
           {/* 3. lépés */}
-          <div className="flex items-start gap-3">
+          <div className="flex gap-3">
             <div className="border-2 border-[#43AFAF] text-[#43AFAF] font-bold px-3 py-1 text-lg">
               3
             </div>
@@ -38,7 +38,7 @@ export default function Foglalj() {
           </div>
 
           {/* 4. lépés */}
-          <div className="flex items-start gap-3">
+          <div className="flex gap-3">
             <div className="border-2 border-[#43AFAF] text-[#43AFAF] font-bold px-3 py-1 text-lg">
               4
             </div>

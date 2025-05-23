@@ -1,34 +1,32 @@
 import Image from "next/image";
 
 export default function ImageGridSection1() {
-  // a két clipPath, egy az “Egyedi Ajánlat”-hoz, egy a “Next Level”-hez
-  const CLIP_ONE =
-    "polygon(40% 1%, 90% 1%, 90% 76%, 60% 99%, 10% 99%, 10% 24%)";
-  const CLIP_TWO =
-    "polygon(40% 1%, 90% 1%, 90% 76%, 60% 99%, 10% 99%, 10% 24%)";
+  // a  clipPath
+  const CLIP = "polygon(40% 1%, 90% 1%, 90% 76%, 60% 99%, 10% 99%, 10% 24%)";
 
   return (
-    <section className="py-12 px-4 sm:px-6 bg-transparent mix-blend-multiply">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-6 lg:gap-x-0 justify-items-center lg:justify-items-start max-w-6xl mx-auto">
+    <section className="bg-transparent mix-blend-multiply">
+      <div className="flex flex-initial flex-col items-center-safe space-y-10 lg:flex-row lg:-space-x-18 justify-items-center max-w-6xl mx-auto">
         {[
           {
             src: "/images/Group 13.svg",
             alt: "Egyedi Ajánlat",
             title: "Egyedi Ajánlat",
-            clip: CLIP_ONE,
+            clip: CLIP,
           },
           {
             src: "/images/Group 11.svg",
             alt: "Next Level",
             title: "Next Level",
             subtitle: "2–6",
-            clip: CLIP_TWO,
+            clip: CLIP,
           },
         ].map(({ src, alt, title, subtitle, clip }, i) => (
           <div
             key={i}
-            className="group relative w-full aspect-[16/9] group transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:brightness-105"
-          style={{clipPath: clip,}}>
+            className="group relative w-[80%] lg:w-1/2 aspect-[16/9] group transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:brightness-105"
+            style={{ clipPath: clip }}
+          >
             {/* Kék keret alatt */}
             <div
               className="absolute inset-0 z-0"
