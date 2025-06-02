@@ -24,36 +24,36 @@ export default function SecondSection() {
           {/* 1. Mellkasi rezgés pont */}
           <div className="absolute top-[12%] left-[70%] transform -translate-x-1/2">
             <div
-              className="w-4 h-4 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-[#43AFAF] rounded-full z-20"
+              className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-11 lg:h-11 bg-[#43AFAF] rounded-full z-20"
               title="Mellkasi rezgés"
             ></div>
           </div>
           {/* Szöveg mellette */}
-          <div className="absolute top-[10%] left-[77%] w-10 sm:w-40 md:w-56 md:top-[6%] text-[6px] sm:text-xs md:text-base lg:text-lg  font-bold text-black text-left z-10">
+          <div className="absolute top-[10%] left-[77%] sm:gipl-3 w-10 sm:w-40 md:w-56 md:top-[6%] text-[clamp(6px,2vw,18px)] font-bold text-black text-left z-10">
             Haptikus mellényekkel érzed a találatokat, ütéseket és rezgéseket
           </div>
 
           {/* 2. Headset pont */}
           <div className="absolute top-[56%] left-[5%] transform -translate-x-1/2">
             <div
-              className="w-4 h-4 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-10 lg:h-10  bg-[#43AFAF] rounded-full z-20"
+              className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-11 lg:h-11  bg-[#43AFAF] rounded-full z-20"
               title="Fejrész"
             ></div>
           </div>
           {/* Szöveg mellette */}
-          <div className="absolute top-[40%] left-[1%] lg:top-[36%] lg:-left-1 w-10 sm:w-24 md:w-30 text-[6px] sm:text-xs md:text-base lg:text-lg  font-bold text-black text-left z-10">
+          <div className="absolute top-[40%] sm:-ml-6 md:top-[40%] left-[1%] lg:top-[36%] lg:-left-1 w-10 sm:w-24 md:w-30 text-[clamp(6px,2vw,18px)]  font-bold text-black text-left z-10">
             Pico 4 Ultra headsettel garantált élmény
           </div>
 
           {/* 3. Haptikus motor pont */}
           <div className="absolute bottom-[20%] right-[40%] transform translate-x-1/2">
             <div
-              className="w-4 h-4 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-10 lg:h-10  bg-[#43AFAF] rounded-full z-20"
+              className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 lg:w-11 lg:h-11  bg-[#43AFAF] rounded-full z-20"
               title="Motor"
             ></div>
           </div>
           {/* Szöveg mellette */}
-          <div className="absolute bottom-[12%] lg:bottom-[4%] left-1/2 transform -translate-x-1/2 px-4 max-w-xs sm:max-x-sm   md:max-w-md text-center text-[6px] sm:text-xs md:text-base lg:text-lg  font-bold text-black z-10">
+          <div className="absolute bottom-[10%] lg:bottom-[4%] left-1/2 transform -translate-x-1/2 max-w-xs sm:max-x-sm   md:max-w-md text-center text-[clamp(6px,2vw,18px)] font-bold text-black z-10">
             Szemenkénti 2k-s felbontás, 16 haptikus motor
           </div>
         </div>
