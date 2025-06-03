@@ -68,12 +68,12 @@ const Header = () => {
           <Link href="/jatekaink" className="text-sm font-semibold px-4 py-2">
             Játékaink
           </Link>
-          <Link href="/rolunk" className="text-sm font-semibold px-4 py-2">
+          <Link href="#rolunk" className="text-sm font-semibold px-4 py-2">
             Rólunk
           </Link>
 
           <Link
-            href="/foglalas"
+            href="#foglalas"
             className="bg-[#43AFAF] text-white px-4 py-2 rounded-xl text-sm font-semibold"
           >
             Foglalás

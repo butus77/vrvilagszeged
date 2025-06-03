@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -32,8 +33,12 @@ html, body {
 }
 
 @keyframes marquee {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .marquee {
@@ -53,4 +58,8 @@ html, body {
 .img-base:hover {
   filter: grayscale(0%);
   transform: scale(1.1);
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -1,10 +1,11 @@
 import Characters from "./Characters";
 import ChefCutout from "./ChefCutout";
 import CopCutout from "./CopCutout";
+import MapSection from "./MapSection";
 
 export default function AboutSection() {
   return (
-    <section
+    <section id="rolunk"
       className="relative mt-44 px-6 py-16 flex flex-col items-center text-black z-0 overflow-hidden"
       style={{
         backgroundColor: "#EAF4EC",
@@ -16,7 +17,7 @@ export default function AboutSection() {
         Rólunk
       </h2>
 
-      <p className="max-w-3xl text-center text-base sm:text-sm md:text-xl leading-relaxed mb-30 z-10 md:mx-24 xl:mx-6 px-4 xl:px-0 lg:mb-50">
+      <p className="max-w-3xl text-center text-base sm:text-sm md:text-xl leading-relaxed z-10 md:mx-24 xl:mx-6 px-4 xl:px-0">
         A VR Világ 2025-ben indult azzal a céllal, hogy Szegedre elhozza a
         szabadmozgásos szórakozás jövőjét. Alapítóink kockák, akik sportolói
         múltjukat a virtuális valóság iránti szenvedélyükkel ötvözték, hogy
@@ -40,6 +41,7 @@ export default function AboutSection() {
       {/* Díszítő elemek - karakterek */}
       <CopCutout />
       <ChefCutout />
+      <MapSection />
       <Characters />
     </section>
   );

@@ -2,7 +2,7 @@ export default function Foglalj() {
   return (
     <>
       {/* Címsor */}
-      <h2 className="py-2 text-center text-[#EAF4EC] text-4xl sm:text-6xl md:text-7xl font-bold leading-tight">
+      <h2 id="foglalas" className="py-2 text-center text-[#EAF4EC] text-4xl sm:text-6xl md:text-7xl font-bold leading-tight">
         Foglalj!
       </h2>
 
