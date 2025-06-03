@@ -9,7 +9,7 @@ export default function SecondSection() {
     >
       <div className="w-full max-w-7xl mx-auto flex flex-col items-center z-10">
         {/* Címsor */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#43AFAF] mb-10">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-[#43AFAF] mb-10">
           A valóság már nem kötelező!
         </h2>
 
@@ -59,7 +59,7 @@ export default function SecondSection() {
         </div>
 
         {/* Alsó címsor */}
-        <h4 className="mt-10 text-sm sm:text-xl md:text-2xl font-bold text-[#43AFAF]">
+        <h4 className="inline-block mt-10 text-sm sm:text-xl md:text-2xl lg:text-3xl font-bold bg-gradient-to-r  from-[#43AFAF] via-blue-500 to-[#43AFAF] bg-clip-text text-transparent">
           Csapatos vagy egyéni kalandok, ahol minden lépés számít
         </h4>
       </div>
