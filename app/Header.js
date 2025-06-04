@@ -17,7 +17,7 @@ const Header = () => {
         {/* Mobil: csak foglalás gomb */}
         <div className="flex sm:hidden">
           <Link
-            href="/foglalas"
+            href="#foglalas"
             className="bg-[#43AFAF] text-white px-4 py-2 rounded-xl text-sm font-semibold"
           >
             Foglalás

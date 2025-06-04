@@ -7,7 +7,7 @@ export default function HeroSection() {
       <section className="relative sm:hidden pt-24 bg-transparent flex flex-col items-center text-center px-4 py-8 text-white space-y-10 overflow-hidden">
         <div className="text-2xl font-semibold leading-tight z-10">
           <h2>Lépj be a</h2>
-          <h2 className="bg-gradient-to-r  from-[#67FFF2] via-blue-500 to-[#67FFF2] bg-clip-text text-transparent">Hyper-Realitás</h2>
+          <h2 className="bg-gradient-to-r  from-[#67FFF2] via-blue-400 to-[#67FFF2] bg-clip-text text-transparent">Hyper-Realitás</h2>
           <h2>világába</h2>
         </div>
 
@@ -32,7 +32,7 @@ export default function HeroSection() {
           {/* Szöveges rész */}
           <div className="flex-1 text-2xl md:text-4xl lg:text-7xl font-semibold leading-tight">
             <h2>Lépj be a</h2>
-            <h2 className="inline-block bg-gradient-to-r from-[#67FFF2] via-blue-500 to-[#67FFF2] bg-clip-text text-transparent">Hyper-Realitás</h2>
+            <h2 className="inline-block bg-gradient-to-r from-[#67FFF2] via-blue-400 to-[#67FFF2] bg-clip-text text-transparent">Hyper-Realitás</h2>
             <h2>világába</h2>
 
             <div className="pt-10 space-y-4 text-sm md:text-lg leading-relaxed">
