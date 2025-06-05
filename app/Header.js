@@ -3,16 +3,18 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="top-0 w-full bg-[#0E0E0F]/80 text-white py-4 z-50 overflow-hidden">
+    <header className="relative top-0 left-0 w-full bg-[#0E0E0F]/80 text-white py-4 z-50 overflow-hidden">
       <div className="flex justify-between items-center max-w-7xl mx-auto px-4">
         {/* Logó */}
-        <Image
-          src="/images/VRVilag2.svg"
-          alt="VR Világ logó"
-          width={100}
-          height={20}
-          className="w-20 sm:w-24 md:w-28 lg:w-32 h-auto"
-        />
+        <Link href="/">
+          <Image
+            src="/images/VRVilag2.svg"
+            alt="VR Világ logó"
+            width={100}
+            height={20}
+            className="w-20 sm:w-24 md:w-28 lg:w-32 h-auto"
+          />
+        </Link>
 
         {/* Mobil: csak foglalás gomb */}
         <div className="flex sm:hidden">
@@ -112,4 +114,3 @@ const Header = () => {
 };
 
 export default Header;
-
