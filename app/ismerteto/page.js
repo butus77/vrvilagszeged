@@ -12,7 +12,7 @@ export default function Ismerteto() {
             alt="VR Világ logó"
             width={100}
             height={20}
-            className="w-20 sm:w-24 md:w-28 lg:w-32 h-auto p-6"
+            className="w-20 sm:w-24 md:w-28 lg:w-44 h-auto p-6"
             priority
           />
       </Link>
