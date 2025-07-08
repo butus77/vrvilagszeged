@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
-const Header = () => {
+const Header = (): React.JSX.Element => {
+
   return (
     <header className="relative top-0 left-0 w-full bg-[#0E0E0F]/80 text-white py-4 z-50 overflow-hidden">
       <div className="flex justify-between items-center max-w-7xl mx-auto px-4">

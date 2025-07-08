@@ -1,4 +1,6 @@
-export default function DarkMaskOverlay() {
+import React from "react";
+
+export default function DarkMaskOverlay(): React.JSX.Element  {
   return (
       <div
         className="absolute w-full bottom-30 inset-0 bg-amber-600 pointer-events-none z-10"

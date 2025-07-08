@@ -1,7 +1,9 @@
 import TransitionSection from "./TransitionSection";
 import BookingCenter from "./BookingCenter";
+import React from "react";
 
-export default function TransitionWithButton() {
+export default function TransitionWithButton(): React.JSX.Element {
+
   return (
     <div className="relative w-full h-[213px] z-40">
       {/* Háttér dekoráció */}

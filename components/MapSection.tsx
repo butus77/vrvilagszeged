@@ -1,4 +1,6 @@
-export default function MapSection() {
+import React from "react";
+export default function MapSection(): React.JSX.Element {
+
     return (
       <section className="my-10 px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl font-semibold mb-4">Hol találsz minket</h2>

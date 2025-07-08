@@ -1,4 +1,6 @@
-export default function Foglalj() {
+import React from "react";
+
+export default function Foglalj(): React.JSX.Element  {
   return (
     <>
       {/* Címsor */}

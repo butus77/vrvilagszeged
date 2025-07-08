@@ -1,6 +1,8 @@
 import Link from "next/link";
+import React from "react";
 
-export default function BookingCenter() {
+export default function BookingCenter(): React.JSX.Element {
+
   return (
       <Link
         href="/foglalas"

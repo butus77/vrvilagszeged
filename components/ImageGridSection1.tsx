@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
-export default function ImageGridSection1() {
+export default function ImageGridSection1(): React.JSX.Element {
+
   // a  clipPath
   const CLIP = "polygon(40% 1%, 90% 1%, 90% 76%, 60% 99%, 10% 99%, 10% 24%)";
 

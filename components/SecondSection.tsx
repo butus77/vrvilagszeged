@@ -1,4 +1,7 @@
-export default function SecondSection() {
+import React from "react";
+export default function SecondSection(): React.JSX.Element {
+
+
   return (
     <section
       className="relative text-center flex flex-col items-center px-4 pt-36 pb-52 overflow-hidden"

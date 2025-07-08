@@ -1,7 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
-export default function Footer() {
+
+export default function Footer(): React.JSX.Element {
+
   return (
     <section className="relative bg-transparent mix-blend-multiply text-white px-4 py-16 z-10 overflow-hidden">
       {/* Tartalom konténer */}

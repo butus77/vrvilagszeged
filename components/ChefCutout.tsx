@@ -1,4 +1,6 @@
-export default function ChefCutout() {
+import React from "react";
+
+export default function ChefCutout(): React.JSX.Element {
   return (
     <div
       className="

@@ -1,4 +1,6 @@
-export default function CopCutout() {
+import React from "react";
+
+export default function CopCutout(): React.JSX.Element  {
   return (
     <div
       className="

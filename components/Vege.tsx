@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Footer from "./Footer";
+import React from "react";
 
-export default function Vege() {
+export default function Vege(): React.JSX.Element {
+
   return (
     <>
     <div className="absolute  w-full lg:hidden">

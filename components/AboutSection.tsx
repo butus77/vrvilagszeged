@@ -2,15 +2,18 @@ import Characters from "./Characters";
 import ChefCutout from "./ChefCutout";
 import CopCutout from "./CopCutout";
 import MapSection from "./MapSection";
+import React from "react";
 
-export default function AboutSection() {
+
+export default function AboutSection(): React.JSX.Element {
+
   return (
-    <section id="rolunk"
+    <section
+      id="rolunk"
       className="relative mt-44 px-6 py-16 flex flex-col items-center text-black z-0 overflow-hidden"
       style={{
         backgroundColor: "#EAF4EC",
-        clipPath:
-          "polygon(50% 6%, 100% 0, 100% 100%, 48% 100%, 0 100%, 0 0)",
+        clipPath: "polygon(50% 6%, 100% 0, 100% 100%, 48% 100%, 0 100%, 0 0)",
       }}
     >
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-16 py-10 text-center">
@@ -46,5 +49,3 @@ export default function AboutSection() {
     </section>
   );
 }
-
-

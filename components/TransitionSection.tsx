@@ -1,8 +1,10 @@
 import DarkMaskOverlay from "./DarkMaskOverlay";
+import React from "react";
 
 
 
-export default function TransitionSection() {
+export default function TransitionSection(): React.JSX.Element {
+
   return (
     <div className="relative -z-10">
     <div

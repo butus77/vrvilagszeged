@@ -1,4 +1,5 @@
 import Image from "next/image";
+import React from "react";
 
 const IMAGES = [
   "/images/1.png",
@@ -31,7 +32,8 @@ const IMAGES = [
   "/images/28.png",
 ];
 
-export default function ThirdSection() {
+export default function ThirdSection(): React.JSX.Element {
+
   return (
     <section className="relative mt-10 overflow-hidden bg-transparent py-10 px-4">
       <div className="marquee inline-flex">
