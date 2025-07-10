@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@genkit-ai/googleai": "^1.14.0",
+    "dotenv": "^17.1.0",
+    "genkit": "^1.14.0",
     "leaflet": "^1.9.4",
     "next": "15.2.4",
     "react": "^19.0.0",
@@ -18,7 +21,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "22.14.1",
+    "@types/node": "^22.14.1",
     "@types/react": "19.1.2",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
